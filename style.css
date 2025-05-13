@@ -1,0 +1,63 @@
+body {
+    background-image: url("imagens/Forest_bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    
+
+    .container {
+        background-color: rgba(20, 20, 20, 0.575);
+        padding: 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #input_form {
+        padding: 10px;
+
+        #input {
+            border: none;
+            outline: none;
+            font-size: 1.3em;
+            padding: 10px;
+            border-radius: 10px;
+            opacity: 0.7;
+            background-color: rgb(132, 100, 28);
+            color: #fff;
+        }
+    }
+
+    #pokemon_nome {
+        color: #fff;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    #pokemon_id {
+        color: #fff;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #imagem_pokemon {
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+
+
+
